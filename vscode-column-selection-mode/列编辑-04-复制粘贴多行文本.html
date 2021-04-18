@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>从Excel 中复制多行内容, 多列粘贴</title>
+  <link rel="stylesheet" href="../assets/water.css">
+</head>
+<body>
+<h1>农科院周围有趣♂的地点</h1>
+<div class="table-contaner">
+  <table>
+    <thead>
+      <tr>
+        <th>名称</th>
+        <th>地址</th>
+        <th>联系方式</th>
+        <th>直线距离</th>
+        <th>备注</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>皂一书屋</td>
+        <td>北下关街道皂君庙东路14号</td>
+        <td>010-62131286</td>
+        <td>780米</td>
+        <td>未探索</td>
+      </tr>
+      <tr>
+        <td>农科院的花卉市场</td>
+        <td>农科东大道与农科五路交叉口东50米(中国农业科学院蔬菜花卉研究所南区)</td>
+        <td>无</td>
+        <td>470米</td>
+        <td>花花草草、盆栽、多肉、种子</td>
+      </tr>
+      <tr>
+        <td>猎逃密室逃脱(人大店)</td>
+        <td>北京市海淀区北三环西路科技会展中心2号楼25楼</td>
+        <td>15343141592, 17778087473</td>
+        <td>700米</td>
+        <td>未探索, 参考价: ￥106</td>
+      </tr>
+      <tr>
+        <td>惊魂密室</td>
+        <td>北三环西路科技会展中心1号楼A座11层11C(地铁站人民大学C口)</td>
+        <td>(010)80456393</td>
+        <td>760米</td>
+        <td>未探索, 参考价: ￥123</td>
+      </tr>
+      <tr>
+        <td>躺碑庙公园</td>
+        <td>北京市海淀区皂君庙路双榆树南里二区华侨公寓东门</td>
+        <td>无</td>
+        <td>635米</td>
+        <td>未探索, 非常小的公园</td>
+      </tr>
+      <tr>
+        <td>麦穗单身公社</td>
+        <td>北京市海淀区中关村南大街17号院韦伯时代大厦C座</td>
+        <td>无</td>
+        <td>800米</td>
+        <td>未探索，知乎上很多广告文章</td>
+      </tr>
+      <tr>
+        <td>大钟寺古钟博物馆</td>
+        <td>北京市海淀区北三环西路甲31号</td>
+        <td>(010)82139050</td>
+        <td>1.3公里</td>
+        <td>未探索</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
+<!-- 展示内容
+  
+  构建一个汇总表，农科院附近有趣的地点
+  从Excel 中复制内容, 填充到HTML 中
+  
+  1. 表格标题
+    - thead>tr>th*5
+    - 复制excel 中表格标题(5个)
+    - 在VSCode 中把制表符替换成换行
+    - 复制5行内容, 一次性粘贴到5个th 中
+  2. 表格内容
+    - tbody>tr*7>td*5
+    - 复制7行Excel 中的内容
+    - 在VSCode 中对每一行下面加一空行
+    - 把每一行中的所有制表符都换成换行符
+    - 复制7*5 行的内容, 一次性粘贴到td 中
+ -->

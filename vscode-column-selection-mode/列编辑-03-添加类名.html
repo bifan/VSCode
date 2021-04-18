@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中文类名</title>
+<style>
+.整个区域 {
+  background: #333;
+  color:#ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.正方形 {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  background: #ccc;
+}
+.橙色 {
+  background: lightsalmon;
+}
+.倾斜 {
+  transform: rotate(45deg);
+}
+.变小 {
+  transform: scale(0.5);
+}
+</style>
+</head>
+<body class="整个区域">
+  <div class="正方形"></div>
+  <div class="正方形"></div>
+  <div class="正方形"></div>
+</body>
+</html>
+<!-- 演示内容
+
+1. 给所有正方形添加'橙色'
+  - 跳至23 行 (Ctrl + G)
+  - 复制'橙色'
+  - 跳至35 行
+  - 在'正方形' 后面选中三列
+  - 粘贴'橙色'
+2. 给第二个正方形添'倾斜'
+  - 跳至上一个编辑处 (Alt + ←), 此时光标应该回到了23 行
+  - 下移光标复制'倾斜'
+  - 跳至下一个编辑处 (Alt + →), 此时光标应该在35 行
+  - 移动光标到36 行 橙色后面
+  - 粘贴'倾斜'
+3. 给第三个正方形添'变小'
+
+-->
